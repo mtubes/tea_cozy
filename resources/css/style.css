@@ -16,34 +16,35 @@ html{
   margin-right: 60px;
 }
 
-header{
+.flex-container{
   display: flex;
   flex-direction: row;
   border-bottom: 1px solid seashell;
   height: 69px;
-  align-content: space-between;
   postion: fixed;
-  align-items: center;
+  align-items: flex-start;
 }
 
  .flex-container img{
    padding: 5px 10px;
+   align-self: flex-start;
  }
  nav{
    display: flex;
-   align-content: flex-end;
-   border: 2px solid white;
+   align-self: center;
+   flex-direction: row;
+   justify-content: flex-end;
+   margin-left: 660px;
 
  }
 
 a {
   display: inline-block;
-  flex-direction: row;
   justify-content: flex-end;
   text-decoration: underline;
   justify-content: space-between;
   color: seashell;
-  padding-left: 25px;
+  margin-left: 25px;
 }
 
 .mission{
